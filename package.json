@@ -1,0 +1,26 @@
+{
+  "name": "geobot",
+  "version": "1.0.0",
+  "description": "O GeoBot coleta informações a partir do código HTML do site do IBGE.",
+  "main": "index.js",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "puppeteer": "^10.4.0",
+    "readline-sync": "^1.4.10",
+    "string.prototype.replaceall": "^1.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "bot",
+    "automação",
+    "nodejs",
+    "puppeteer",
+    "geografia",
+    "ibge"
+  ],
+  "author": "Wesley Araújo",
+  "license": "ISC"
+}
