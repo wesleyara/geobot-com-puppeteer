@@ -51,7 +51,7 @@ async function geobot() {
   console.log(`A cidade de ${nomeCidade} tem ${area} de área territorial;`)
   console.log(`População total de ${populacao};`)
   console.log(`${densidade} de densidade demográfica;`)
-  console.log(`O indíce de escolarização de 6 a 14 anos é de ${escolarizacao};`)
+  console.log(`O índice de escolarização de 6 a 14 anos é de ${escolarizacao};`)
   console.log(`O IDHM é de ${idhm};`)
   console.log(`Tem uma taxa de mortalidade infantil de ${mortalizadeInfantil};`)
   console.log(`E um PIB per capita de ${pib}.`)
