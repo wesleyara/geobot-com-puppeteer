@@ -9,7 +9,9 @@
     "readline-sync": "^1.4.10",
     "string.prototype.replaceall": "^1.0.6"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
   "scripts": {
     "test": "node index.js"
   },
@@ -22,5 +24,10 @@
     "ibge"
   ],
   "author": "Wesley Araújo",
-  "license": "ISC"
+  "license": "ISC",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
