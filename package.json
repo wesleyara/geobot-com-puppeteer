@@ -1,6 +1,6 @@
 {
   "name": "geobot",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "O GeoBot coleta informações a partir do código HTML do site do IBGE.",
   "main": "index.js",
   "dependencies": {

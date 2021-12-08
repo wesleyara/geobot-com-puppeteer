@@ -12,7 +12,7 @@ estado.toLowerCase();
 var cidadeReplace = cidade.replaceAll(" ", "-")
 
 async function geobot() {
-  const browser = await puppeteer.launch({headless: true});
+  const browser = await puppeteer.launch({headless: false});
   const page = await browser.newPage();
   await page.goto(`https://www.ibge.gov.br/cidades-e-estados/${estado}/${cidadeReplace}`);
 
